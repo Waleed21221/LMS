@@ -47,7 +47,8 @@
 				</div>
 
 				<div class="login-form-body">
-					<form action="" method="">
+					<form action="{{ route('login') }}" method="POST">
+						@csrf
 						<div class="form-group">
 							<label>{{ __('E-Mail Address') }}</label>
                             <input id="email" type="email" class="@error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Student ID, Teacher ID, Staff ID">
