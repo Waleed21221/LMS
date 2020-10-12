@@ -1,0 +1,139 @@
+
+
+body {
+	background-color: #f9f9fb;
+}
+
+.left-sidebar {
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgb(146 145 145 / 18%);
+}
+
+.right-sidebar {
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgb(146 145 145 / 18%);
+}
+
+.dashboard-links ul li a {
+	color: #acacac;
+}
+
+.dashboard-links ul li a:hover {
+	background-color: #f9f9fb;
+}
+
+.person-header h6 {
+	color: #0b0a0b;
+}
+
+.dashboard-resources .accordion .card .card-header h4 {
+	color: #6e6e6e;
+}
+
+.dashboard-resources .accordion .card .card-header {
+	background-color: #fff
+}
+
+.dashboard-resources .accordion .card .card-body {
+	background-color: #f6f6f6;
+}
+
+.dashboard-resources h5 {
+	color: #686868;
+}
+
+.mid-area-box-parent {
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgb(146 145 145 / 18%);
+}
+
+.recent-class-sub-heading h4 {
+    color: #636363;
+}
+
+.recent-class-progress-bar-parent p {
+    color: #4b4b4b;
+}
+
+.mid-area-boxes-header .testscore-review h5 {
+    color: #636363;
+}
+
+.mid-area-boxes-header .person-post label {
+    color: #4b4b4b;
+}    
+
+.mid-area-boxes-header .person-img-name h5 {
+	color: #4b4b4b;
+}
+
+.recent-post-header-text p {
+    color: #686868;
+}
+
+.social-btns-parent button label {
+	color: #464646
+}
+
+.social-commentbar-parent input {
+    border: 1px solid #dedee0;
+    background-color: #f9f9fb;
+}
+
+.recent-post-comments-body .commentor-text p {
+    color: #787878
+}
+
+.courses-should-add-body label {
+    color: #4b4b4b;
+}
+
+.work-discussion-main-box .disc-info h5 {
+    color: #4b4b4b;
+} 
+
+.work-discussion-main-box .disc-text p {
+    color: #686868;
+}
+
+.work-discussion-inner-box {
+    background-color: #e6e6e6;
+    border-left: 15px solid #00b986; 
+}
+
+.mid-area-sections-headings .line {
+	background-color: #e7e7e9;
+}
+
+.my-assignments-header {
+    background-color: #f9f9fb; 
+}
+
+.class-schedule-header {
+	background-color: #f9f9fb; 
+}
+
+.my-groups-header {
+    background-color: #f9f9fb;
+}
+
+.my-assignments-body input[type="checkbox"] + label:before {
+    border: 1px solid #e8e8e8;
+    background-color: #f6f6f8
+}
+
+.dashboard-header {
+    background-color: #fff;
+}
+
+.dashboard-header form input {
+    background-color: #e8e8e8;
+}
+
+.notify-parent-box label {
+    color: #0b0a0b;
+}
+
+.notify-btn-parent label {
+    color: #fff;
+}
