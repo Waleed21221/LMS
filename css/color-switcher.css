@@ -1,0 +1,273 @@
+
+
+body {
+	background-color: #f9f9fb;
+}
+
+.left-sidebar {
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgb(146 145 145 / 18%);
+}
+
+.right-sidebar {
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgb(146 145 145 / 18%);
+}
+
+.dashboard-links ul li a {
+	color: #acacac;
+}
+
+.dashboard-links ul li a:hover {
+	background-color: #f9f9fb;
+}
+
+.person-header h6 {
+	color: #0b0a0b;
+}
+
+.dashboard-resources .accordion .card .card-header h4 {
+	color: #6e6e6e;
+}
+
+.dashboard-resources .accordion .card .card-header {
+	background-color: #fff
+}
+
+.dashboard-resources .accordion .card .card-body {
+	background-color: #f6f6f6;
+}
+
+.dashboard-resources h5 {
+	color: #686868;
+}
+
+.mid-area-box-parent {
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgb(146 145 145 / 18%);
+}
+
+.recent-class-sub-heading h4 {
+    color: #636363;
+}
+
+.recent-class-progress-bar-parent p {
+    color: #4b4b4b;
+}
+
+.mid-area-boxes-header .testscore-review h5 {
+    color: #636363;
+}
+
+.mid-area-boxes-header .person-post label {
+    color: #4b4b4b;
+}    
+
+.mid-area-boxes-header .person-img-name h5 {
+	color: #4b4b4b;
+}
+
+.recent-post-header-text p {
+    color: #686868;
+}
+
+.social-btns-parent button label {
+	color: #464646
+}
+
+.social-commentbar-parent input {
+    border: 1px solid #dedee0;
+    background-color: #f9f9fb;
+}
+
+.recent-post-comments-body .commentor-text p {
+    color: #787878
+}
+
+.courses-should-add-body label {
+    color: #4b4b4b;
+}
+
+.work-discussion-main-box .disc-info h5 {
+    color: #4b4b4b;
+} 
+
+.work-discussion-main-box .disc-text p {
+    color: #686868;
+}
+
+.work-discussion-inner-box {
+    background-color: #e6e6e6;
+    border-left: 15px solid #00b986; 
+}
+
+.mid-area-sections-headings .line {
+	background-color: #e7e7e9;
+}
+
+.my-assignments-header {
+    background-color: #f9f9fb; 
+}
+
+.class-schedule-header {
+	background-color: #f9f9fb; 
+}
+
+.my-groups-header {
+    background-color: #f9f9fb;
+}
+
+.social-commentbar-parent input { 
+    color: #000;
+}
+
+.my-assignments-body input[type="checkbox"] + label:before {
+    border: 1px solid #e8e8e8;
+    background-color: #f6f6f8
+}
+
+.dashboard-header {
+    background-color: #fff;
+}
+
+.dashboard-header form input {
+    background-color: #e8e8e8;
+}
+
+.notify-parent-box label {
+    color: #0b0a0b;
+}
+
+.notify-btn-parent label {
+    color: #fff;
+}
+
+.sbmssn-doc-reviews-bar {
+    background: #f9f9fb;
+}
+
+.my-groups-header, .my-task-header {
+    background-color: #f9f9fb;
+}
+
+.sbmssn-doc-reviews-icon {
+    background-color: #e6f8f3;
+}
+
+.sbmssn-subjct-tsk-info ul li {
+    color: #686868;
+}
+
+.sbmssn-file-prnt ul li {
+    color: #686868;
+}
+
+.sbmssn-doc-cmnt i {
+    background-color: #e7e7e9;
+}
+
+.sbmssn-doc-action-dots i {
+    background-color: #e7e7e9;
+}
+
+.sbmssn-info-header {
+    background-color: #f9f9fb
+}
+
+.sbmssn-doc-line {
+    background-color: #e7e7e9;
+}
+
+.sbmssn-rmrks-txt-prnt {
+    border-top: 1px solid #e7e7e9
+}
+
+.sbmssn_hb-sbjct-dtl-headings, .sbmssn-hb-sbjct-name, .sbmssn_hb-sbjct-dtl-assi-headings {
+    background: #ffffff;
+}
+
+.sbmssn_hb-sbjct-dtl-headings ul li, .sbmssn_hb-sbjct-inner-headings ul li, .sbmssn_hb-sbjct-dtl-assi-headings ul li {
+    color: #686868;
+}
+
+.sbmssn_hb-sbjct-dtl-line, .sbmssn-hb-doc-line {
+    background-color: #e7e7e9;
+}
+
+.sbmssn_hb-sbjct-plus i, .sbmssn_hb-sbjct-dtl-inner-plus i {
+    background: #e7e7e9;
+}
+
+.tbl-hdr-sbjct-h h4, .tbl-hdr-date-prnt label, .tbl-hdr-sbjct-txt ul li {
+    color: #2c3040;
+}
+
+.tbl-hdr-date-prnt input, .tbl-hdr-srch-prnt input {
+    background-color: #e8e8e8;
+    border: 1px solid #d8d8d8;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #e8e8e8;
+}
+
+.table thead th {
+    color: #000;
+    border-right: 2px solid #8087ab;
+}
+
+.table td {
+    color: #7e84a8;
+}
+
+.table td {
+    border-right: 2px solid #8087ab;
+}
+
+.table thead {
+    border-top: 2px solid #8087ab;
+    background: #e8e8e8;
+}
+
+.mid-area-sections-headings h5 {
+    background: #f9f9fb;
+}
+
+.circle-progress .progress-value {
+    color: #2c3040;
+}
+
+.tbl-pagination ul li a {
+    background: #e8e8e8;
+    color: #8087ab;
+    border: 1px solid #e8e8e8;
+    transition: 0.4s ease-in-out;
+}
+
+.tbl-pagination ul li a:hover {
+    transition: 0.4s ease-in-out;
+    background: #00b986;
+    color: #fff;
+    border: 1px solid #00b986;
+}
+
+.upld-blk-rec button, .form-submit button, .add-new-prog button {
+    color: #7c82a0
+}
+
+.tbl-hdr-prnt-bar button, .tbl-hdr-prnt-bar i {
+    color: #7c82a0
+}
+
+.tbl-hdr-prnt-bar button:hover {
+    color: #fff
+}
+
+.tbl-form-sec form input, .tbl-hdr-right-srch input {
+    background-color: #e8e8e8;
+    border: 1px solid #e8e8e8;
+}

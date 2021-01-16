@@ -5,9 +5,11 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Laratrust\Traits\LaratrustUserTrait;
 
 class User extends Authenticatable
 {
+    use LaratrustUserTrait;
     use Notifiable;
 
     /**
@@ -15,9 +17,17 @@ class User extends Authenticatable
      *
      * @var array
      */
+
+   
+     protected $table = 'users';
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','role',
     ];
+
+    // public function personal_info()
+    // {
+    //     return $this->hasMany('App\Personal_info');
+    // }
 
     /**
      * The attributes that should be hidden for arrays.
@@ -36,4 +46,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    
+    public function student()
+    {
+        return $this->hasOne(Student::class);
+    }
+
+    public function faculty()
+    {
+        return $this->hasOne(Faculty::class,"user_id","id");
+    }
 }

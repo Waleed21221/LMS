@@ -1,0 +1,526 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Collectives - Teachers Submission List</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/color-switcher.css"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet"> -->
+	
+</head>
+<body>
+
+<!---------------------------------- DASHBOARD HEADER - OPEN --------------------------------->
+
+<section>
+	
+	<div class="dashboard-header mb-4">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 text-center m-auto">
+					<a href="#"><img src="images/logo.png" class="img-fluid dash-logo-mob-size" width="140" /></a>
+				</div>
+				<div class="col-lg-7 col-md-7 dashboard-header-search-col">
+					<form>
+						<div class="form-group mb-0">
+							<input type="search" name="" placeholder="Search, Classes, Groups, Messages ....">
+							<button type="submit"><i class="fas fa-search"></i></button>
+						</div>
+					</form>
+				</div>
+				<div class="col-lg-3 col-md-3 dashboard-header-notify-col">
+					<div class="notify-parent-box">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="mt-3 notify-btn-parent">
+									<button type="button" class="mr-4">
+										<i class="far fa-bell"></i>
+										<label class="notify-count">12</label>
+									</button>	
+								</div>
+								<div class="calendar-icon-parent">
+									<i class="far fa-calendar-alt mt-3 mr-2"></i>
+									<label class="mr-3 mt-3">28 NOV 2020</label>
+								</div>
+								<div class="signout-icon-parent">
+									<a href="#"><i class="fas fa-sign-out-alt"></i><label>LOGOUT</label></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+
+<!---------------------------------- DASHBOARD HEADER - CLOSED --------------------------------->	
+
+<!---------------------------------- LEFT SIDEBAR - OPEN --------------------------------->
+
+<div id="the-parent">
+
+<section>
+
+	<div class="left-sidebar-button" id="left-sidebar-button-id">
+		<button class="openbtn" onclick="openLeftPanel()"><i class="fas fa-angle-right"></i></button>
+	</div>
+	<div class="container-fluid">
+		<div class="left-sidebar" id="left-sidebar-panel">
+			<a href="javascript:void(0)" class="closebtn left-sidebar-close-btn" onclick="closeLeftPanel()">×</a>
+			<div class="person-header">
+				<img src="images/dashboard/user.png" class="img-fluid" width="75">
+				<div class="person-text">
+					<h6>JOHN PARKER</h6>
+					<p>ECONOMICS GRADUATE</p>
+					<a href="#">VIEW PROFILE <i class="fas fa-caret-right ml-1"></i></a>
+				</div>
+				<div class="color-switcher-link">
+					<button type="button" id="color-switcher-light-btn">Light Mode</button>
+					<button type="button" id="color-switcher-dark-btn">Dark Mode</button>
+				</div>
+			</div>
+			<div class="dashboard-links">
+				<ul>
+					<li><a href="#" class="home-icon dash-icons">DASHBOARD</a></li>
+					<li><a href="#" class="classes-icon dash-icons">CLASSES</a></li>
+					<li><a href="#" class="groups-icon dash-icons">GROUPS</a></li>
+					<li><a href="#" class="msg-center-icon dash-icons">MESSAGE CENTER</a></li>
+					<li><a href="#" class="settings-icon dash-icons">SETTINGS</a></li>
+				</ul>
+			</div>
+			<div class="dashboard-resources">
+				<h5>RESOURCES</h5>
+					<!--Accordion wrapper-->
+					<div class="accordion md-accordion accordion-4" id="accordionEx2" role="tablist" aria-multiselectable="true">
+
+					  <!-- Accordion card -->
+					  <div class="card">
+
+					    <!-- Card header -->
+					    <div class="card-header z-depth-1 teal lighten-4 newsletter-card-header" role="tab" id="heading10">
+					      <a data-toggle="collapse" data-parent="#accordionEx2" href="#collapse10" aria-expanded="true"
+					        aria-controls="collapse10">
+					        <h4 class="mb-0 text-uppercase newsletter-icon">
+					          NEWSLETTER<i class="fas fa-sort-up fa-sort-up-nwsltr"></i>
+					        </h4>
+					      </a>
+					    </div>
+
+					    <!-- Card body -->
+					    <div id="collapse10" class="collapse show" role="tabpanel" aria-labelledby="heading10"
+					      data-parent="#accordionEx2">
+					      <div class="card-body rgba-teal-strong white-text">
+					      	<div class="dashboard-resources-accordion-links">
+					        <ul>
+					        	<li><a href="#">Support your Guild</a></li>
+					        	<li><a href="#">Latest Intern Openings</a></li>
+					        	<li><a href="#">Weekly LMS Updates</a></li>
+					        </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <!-- Accordion card -->
+
+					  <!-- Accordion card -->
+					  <div class="card">
+
+					    <!-- Card header -->
+					    <div class="card-header z-depth-1 teal lighten-3 events-card-header" role="tab" id="heading11">
+					      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2" href="#collapse11"
+					        aria-expanded="false" aria-controls="collapse11">
+					        <h4 class="mb-0 text-uppercase events-icon">
+					          EVENTS<i class="fas fa-sort-down fa-sort-up-events"></i>
+					        </h4>
+					      </a>
+					    </div>
+
+					    <!-- Card body -->
+					    <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11"
+					      data-parent="#accordionEx2">
+					      <div class="card-body rgba-teal-strong white-text">
+					        <div class="dashboard-resources-accordion-links">
+					        <ul>
+					        	<li><a href="#">Support your Guild</a></li>
+					        	<li><a href="#">Latest Intern Openings</a></li>
+					        	<li><a href="#">Weekly LMS Updates</a></li>
+					        </ul>
+					      </div>
+					      </div>
+					    </div>
+					  </div>
+					  <!-- Accordion card -->
+
+
+					</div>
+					<!--/.Accordion wrapper-->
+			</div>
+		</div>
+		<div class="dashboard-unimarket-link">
+			<a href="#">UNIMARKET <img src="images/dashboard/unimarket-icon.png" class="img-fluid" /></a>
+		</div>
+	</div>
+</div>
+
+</section>
+
+<!---------------------------------- LEFT SIDEBAR - CLOSED --------------------------------->
+
+<!---------------------------------- LARGE SIDE AREA CONTENT - OPEN --------------------------------->
+
+<section id="lrg-side-area-parent">
+
+		<div class="tbl-form-sec mb-5 mt-4">
+			<div class="upld-blk-rec">
+				<button type="submit">Upload Bulk Record</button>
+			</div>
+			<div class="add-new-prog mt-4">
+				<button type="submit" id="add_new_prog">Add New Program</button>
+
+				<form class="mt-4" id="add_prog_form">
+					<div class="form-group">
+						<input type="" name="" placeholder="Program Name" />
+					</div>
+					<div class="form-group">
+						<input type="" name="" placeholder="Code" />
+					</div>
+					<div class="form-submit">
+						<button type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+
+			
+
+		</div>
+
+		<div class="tbl-hdr">
+			<div class="tbl-hdr-left my-auto">
+				<div class="tbl-hdr-sbjct-h">
+					<h4>PHYSICS 402</h4>
+				</div>
+				<div class="tbl-hdr-sbjct-txt">
+					<ul>
+						<li class="blue">|</li>
+						<li class="blue">Week 1 Assignment</li>
+						<li class="grey">|</li>
+						<li>Case Study</li>
+						<li class="grey">|</li>
+						<li>Total Submissions - 34</li>
+					</ul>
+				</div>
+			</div>
+			<div class="tbl-hdr-right my-auto">
+				<div class="tbl-hdr-srch-prnt">
+					<div class="tbl-hdr-srch-one">
+						<input type="" name="" placeholder="Search By Name" class="mr-3" />
+						<i class="fas fa-search"></i>
+					</div>
+					<div class="tbl-hdr-srch-two">
+						<input type="" name="" placeholder="Search By File Name" />
+						<i class="fas fa-search"></i>
+					</div>
+				</div>
+				<div class="tbl-hdr-date-prnt">
+					<div class="tbl-hdr-date-one">
+						<label>Date</label>
+						<input type="date" name="" class="mr-3" />
+					</div>
+					<div class="tbl-hdr-date-two">
+						<input type="date" name="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tbl-body mt-4">
+
+		<table class="table table-striped mb-0">
+		  <thead>
+		    <tr>
+		      <th scope="col">Name<i class="fas fa-sort-down"></i></th>
+		      <th scope="col">File Name<i class="fas fa-sort-down"></i></th>
+		      <th scope="col">Status<i class="fas fa-sort-down"></i></th>
+		      <th scope="col">Submit Date<i class="fas fa-sort-down"></i></th>
+		      <th scope="col">Action<i class="fas fa-sort-down"></i></th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 not-rcvd" width="32" />Mark</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 mrkd" width="32" />Jacob</td>
+		      <td>Case Study v-1.Docx</td>
+		      <td class="mrkd">Marked</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 not-rcvd" width="32" />Larry</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 not-rcvd" width="32" />Mark</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 mrkd" width="32" />Jacob</td>
+		      <td>Case Study v-1.Docx</td>
+		      <td class="mrkd">Marked</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 not-rcvd" width="32" />Larry</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 not-rcvd" width="32" />Larry</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 not-rcvd" width="32" />Larry</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2 not-rcvd" width="32" />Larry</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		    <tr>
+		      <td><img src="images/dashboard/user.png" class="img-fluid mr-2" width="32" />Larry</td>
+		      <td>Case Study v-1-02.Docx</td>
+		      <td class="not-rcvd">Not Received</td>
+		      <td>23 Oct 2020</td>
+		      <td>
+		      	<a href="#"><i class="far fa-eye mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-pen mr-3"></i></a>
+		      	<a href="#"><i class="fas fa-trash-alt"></i></a>
+		      </td>
+		    </tr>
+		  </tbody>
+		</table>
+
+	</div>
+
+</section>
+
+
+<!---------------------------------- LARGE SIDE AREA CONTENT - OPEN --------------------------------->
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+
+function openLeftPanel() {
+  document.getElementById("left-sidebar-panel").style.width = "100%";
+}
+
+function closeLeftPanel() {
+  document.getElementById("left-sidebar-panel").style.width = "0";
+}
+
+function openRightPanel() {
+  document.getElementById("right-sidebar-panel").style.width = "100%";
+}
+
+function closeRightPanel() {
+  document.getElementById("right-sidebar-panel").style.width = "0";
+}
+
+function rightPanelFirstCheckbox() {
+	var rightBarCheckbox1 = document.getElementById("c1");
+	var rightBarLabel1 = document.getElementById("label1");
+
+	if (rightBarCheckbox1.checked == true) {
+		rightBarLabel1.style.textDecoration = "line-through";
+	} else {
+		rightBarLabel1.style.textDecoration = "none";
+	}
+}
+
+function rightPanelSecondCheckbox() {
+	var rightBarCheckbox2 = document.getElementById("c2");
+	var rightBarLabel2 = document.getElementById("label2");
+
+	if (rightBarCheckbox2.checked == true) {
+		rightBarLabel2.style.textDecoration = "line-through";
+	} else {
+		rightBarLabel2.style.textDecoration = "none";
+	}
+}
+
+function rightPanelThirdCheckbox() {
+	var rightBarCheckbox3 = document.getElementById("c3");
+	var rightBarLabel3 = document.getElementById("label3");
+
+	if (rightBarCheckbox3.checked == true) {
+		rightBarLabel3.style.textDecoration = "line-through";
+	} else {
+		rightBarLabel3.style.textDecoration = "none";
+	}
+}
+
+function rightPanelFourthCheckbox() {
+	var rightBarCheckbox4 = document.getElementById("c4");
+	var rightBarLabel4 = document.getElementById("label4");
+
+	if (rightBarCheckbox4.checked == true) {
+		rightBarLabel4.style.textDecoration = "line-through";
+	} else {
+		rightBarLabel4.style.textDecoration = "none";
+	}
+}
+
+function expandWorkDiscussionBox() {
+	var workDiscussionBoxArrow = document.getElementById("work-discussion-expand-box-arrow");
+	var workDiscussionBox = document.getElementById("work-discussion-expand-box");
+
+	if (workDiscussionBoxArrow.style.height === "80px") {
+		workDiscussionBox.style.height = "auto";
+	} else {
+		workDiscussionBox.style.height = "80px"
+	}
+}
+
+
+
+</script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+	  $("#left-sidebar-button-id").click(function(){
+	    $(".left-sidebar").show();
+	  });
+
+	  $("#right-sidebar-button-id").click(function(){
+	    $(".right-sidebar-parent").show();
+	  });
+
+	  $("#color-switcher-light-btn").click(function(){
+	    $('head').append('<link rel="stylesheet" href="css/color-switcher.css" type="text/css" />');
+	  });
+
+	  $("#color-switcher-dark-btn").click(function(){
+	    $('link[href*="color-switcher.css"]').attr("disabled", "true");
+	  });
+
+	  $(".announcement-bar-close-btn").click(function(){
+	    $(".announcement-bar-parent").fadeOut();
+	  });
+
+
+	  	$('#the-parent').on('mouseenter', function(){ 
+	        $('#the-parent').on('scroll', function () {
+	            $('.right-sidebar').scrollTop($(this).scrollTop());
+	        });
+	    });
+	    $('#the-parent').on('mouseleave', function(){ 
+	        $('#the-parent').off('scroll');
+	        $('.right-sidebar').off('scrollTop');
+	    });
+	    
+	    $('.right-sidebar').on('mouseenter',function(){ 
+	        $('.right-sidebar').on('scroll', function () {
+	            $('#the-parent').scrollTop($(this).scrollTop());
+	        });
+	    }); 
+	    $('.right-sidebar').on('mouseleave', function(){ 
+	        $('.right-sidebar').off('scroll');
+	        $('#the-parent').off('scrollTop');
+	    });
+
+
+	    $(".newsletter-card-header").click(function(){
+	    	$(".fa-sort-up-nwsltr").toggleClass("fa-sort-down-nwsltr");
+	  	});
+
+	  	$(".events-card-header").click(function(){
+	    	$(".fa-sort-up-events").toggleClass("fa-sort-down-events");
+	  	});
+
+	  	$("#add_new_prog").click(function(){
+	    	$("#add_prog_form").slideToggle();
+	  	});
+
+	  	$("#add_prog_form").hide();
+
+	});
+
+	
+
+
+	
+
+</script>
+</body>
+</html>

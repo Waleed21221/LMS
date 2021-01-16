@@ -3,9 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
+use Carbon\Carbon;
+use App\User;
 class HomeController extends Controller
 {
+
+
     /**
      * Create a new controller instance.
      *
@@ -13,7 +17,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        // $this->middleware('role:user');
     }
 
     /**
@@ -23,6 +27,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+              $date = Carbon::now();
+              $date1= $date->isoFormat('Do MMMM ');
+
+            $user = Auth::User(); 
+            return view('home', compact('user','date1'));
+       
+        }
+        
     }
-}
+

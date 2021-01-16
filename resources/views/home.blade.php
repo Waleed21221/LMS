@@ -53,7 +53,7 @@
 								</div>
 								<div class="calendar-icon-parent">
 									<i class="far fa-calendar-alt mt-3 mr-2"></i>
-									<label class="mr-3 mt-3">28 NOV 2020</label>
+									<label class="mr-3 mt-3">{{$date1}}</label>
 								</div>
 								<div class="signout-icon-parent">
 									<a href="{{ route('logout') }}"
@@ -86,7 +86,7 @@
 			<div class="person-header">
 				<img src="images/dashboard/user.png" class="img-fluid" width="75">
 				<div class="person-text">
-					<h6>JOHN PARKER</h6>
+					<h6>{{$user->name}}</h6>
 					<p>ECONOMICS GRADUATE</p>
 					<a href="#">VIEW PROFILE <i class="fas fa-caret-right ml-1"></i></a>
 				</div>
@@ -199,7 +199,7 @@
 					<img src="images/dashboard/announcemen-icon.png" class="img-fluid" />
 				</div>
 				<div class="col-lg-9 col-md-9 announcement-bar-text-col">
-					<h4>TO ALL FALL EROLLED STUDENTS 2020</h4>
+					<h4>Student Dashboard</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
 				</div>
 			</div>

@@ -1,0 +1,23 @@
+body {
+    background-color: #21242c;
+}
+
+form input {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid #4b5069;
+    background-color: #252936;
+    padding: 7px 10px;
+    font-size: 14px;
+    color: #ccc;
+    position: relative;
+}
+
+.styl {
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 12px 34px;
+    color: #fff;
+    font-size: 12px;
+    border: 3px solid #00b986;
+}
